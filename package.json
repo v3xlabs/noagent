@@ -1,0 +1,16 @@
+{
+  "name": "noagent",
+  "version": "0.0.1-beta.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "noagent": "./index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0"
+}
