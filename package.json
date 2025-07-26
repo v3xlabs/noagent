@@ -1,16 +1,33 @@
 {
   "name": "noagent",
-  "version": "0.0.1-beta.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "A simple npm package that helps you get rid of ai generated whitespace & framing.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "noagent": "node index.js",
+    "format": "node index.js",
+    "test": "node index.js --dry-run ."
   },
   "bin": {
     "noagent": "./index.js"
   },
   "type": "module",
-  "keywords": [],
-  "author": "",
-  "license": "GPL-3.0"
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/v3xlabs/noagent.git"
+  },
+  "homepage": "https://github.com/v3xlabs/noagent#readme",
+  "bugs": {
+    "url": "https://github.com/v3xlabs/noagent/issues"
+  },
+  "author": "v3xlabs",
+  "license": "GPL-3.0",
+  "files": [
+    "index.js",
+    "README.md",
+    "package.json"
+  ]
 }
