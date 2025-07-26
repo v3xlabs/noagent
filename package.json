@@ -1,6 +1,6 @@
 {
   "name": "noagent",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple npm package that helps you get rid of ai generated whitespace & framing.",
   "main": "index.js",
   "scripts": {
